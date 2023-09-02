@@ -1,16 +1,21 @@
 {
-  "name": "bot",
-  "version": "1.0.1",
-  "description": "",
-  "main": "bot.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "faunadb": "^4.7.1",
-    "telegraf": "^4.11.2"
-  }
+    "name": "chatgpt-telegram-bot",
+    "version": "1.0.0",
+    "description": "Telegram Bot with OpenAI GPT-3.5-turbo connection, context and Stability AI painting",
+    "main": "index.js",
+    "type": "module",
+    "author": "Max Sveshnikov",
+    "license": "MIT",
+    "scripts": {
+        "copy": "copy.cmd",
+        "deploy": "deploy.cmd"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.12",
+        "dotenv": "^16.3.1",
+        "node-fetch": "^3.3.2",
+        "node-telegram-bot-api": "^0.61.0",
+        "openai": "^4.0.1",
+        "replicate-js": "github:nicholascelestin/replicate-js"
+    }
 }

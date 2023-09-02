@@ -1,0 +1,10 @@
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/chatgpt/opened.json .
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/chatgpt/trials.json .
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/chatgpt/suffix.json .
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/chatgpt/skips.json .
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/chatgpt/temp.json .
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/chatgpt/time.json .
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/chatgpt/context.json .
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/chatgpt/money.json .
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/.pm2/logs/chatgpt-error.log .
+scp ubuntu@mega.maxsoft.tk:/home/ubuntu/.pm2/logs/chatgpt-out.log .
