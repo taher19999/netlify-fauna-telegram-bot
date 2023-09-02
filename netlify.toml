@@ -2,8 +2,15 @@
   functions = "functions"
   command = "netlify-lambda install && mkdir ./public"
 [template.environment]
-  FAUNA_SECRET_KEY = "FaunaDB secret key here"
-  TELEGRAM_BOT_TOKEN = "Telegram bot token here"
+  ADMIN = "ta_ja199"
+  ADMIN_ID = "5198110160"
+  GOOGLE_KEY = "6380c68dff384955ae2ca406e989867a"
+  GROUP_EN = "https://t.me/tahertest"
+  GROUP_EN_ID = "-1001795201566"
+  OPENAI_KEY = "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"
+  REPLICATE_KEY= "44c33a339e1c65ae649e9ac54c582a92abfa8ba9"
+  STRIPE_KEY = "5249057655:TEST:db9c9a7cff518ab0c3990e82d4a8ea55d5d697264ff74cc0930af317f4681dbd"
+  TELEGRAM_KEY = "6160836592:AAGVASpdpjFVvfPCsnCIagWuhS4ehbR1OXk"
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
